@@ -1,0 +1,17 @@
+set clipboard=unnamed,autoselect
+
+set encoding=utf-8
+set fileencoding=utf-8
+set fenc=utf-8
+
+set nobackup
+set noswapfile
+set cursorline
+set smartindent
+set showmatch
+set number
+
+syntax on
+colorscheme elflord
+nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
+

@@ -11,5 +11,7 @@ vm 環境を構築するための Script 群です。
 
 - コマンドプロンプトの変更
 - mozc、vim インストール
-- `~/.bash_aliased` ファイルの配置
+- pyenv、nodebrew インストール
+- aws-cli インストール
+- `~/.bash_aliases` ファイルの配置
 
