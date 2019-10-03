@@ -1,17 +1,29 @@
+" クリップボードを使えるようにする
 set clipboard=unnamed,autoselect
 
+" エンコードを設定する
 set encoding=utf-8
 set fileencoding=utf-8
 set fenc=utf-8
 
-set nobackup
-set noswapfile
-set cursorline
-set smartindent
-set showmatch
-set number
+set nobackup    " バックアップファイルを作成しない
+set noswapfile  " スワップファイルを作成しない
+set cursorline  " カーソルラインを表示する
+set expandtab   " タブをスペースに変換する
+set autoindent  " 自動的にインデントする
+set smartindent " 改行時に自動的にインデントを増減する
+set showmatch   " 対応する括弧を強調表示する
+set showcmd     " 入力中のコマンドを表示する
+set number      " 行番号を表示する
 
+" 構文毎に文字色を変更する
 syntax on
 colorscheme elflord
 nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
+
+" 改行時の自動コメントアウトを無効化する
+augroup auto_commentout
+  autocmd!
+  autocmd BufRead * set formatoptions-=ro
+ augroup END
 
