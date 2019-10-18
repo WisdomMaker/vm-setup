@@ -9,6 +9,7 @@ ${BASE_DIR}/snippets/install-vim.sh
 ${BASE_DIR}/snippets/install-pyenv.sh
 ${BASE_DIR}/snippets/install-nodebrew.sh
 ${BASE_DIR}/snippets/install-jq.sh
+${BASE_DIR}/snippets/install-awscli.sh
 
 cp ${BASE_DIR}/files/bash_aliases ~/.bash_aliases
 
