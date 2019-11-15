@@ -14,5 +14,6 @@ vm 環境を構築するための Script 群です。
 - pyenv、nodebrew インストール
 - jq インストール
 - aws-cli インストール
+- docker インストール
 - `~/.bash_aliases` ファイルの配置
 
