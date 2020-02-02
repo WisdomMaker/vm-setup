@@ -15,5 +15,6 @@ vm 環境を構築するための Script 群です。
 - jq インストール
 - aws-cli インストール
 - docker インストール
+- vscode インストール
 - `~/.bash_aliases` ファイルの配置
 
