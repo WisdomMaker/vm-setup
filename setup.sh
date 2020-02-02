@@ -11,6 +11,7 @@ ${BASE_DIR}/snippets/install-nodebrew.sh
 ${BASE_DIR}/snippets/install-jq.sh
 ${BASE_DIR}/snippets/install-awscli.sh
 ${BASE_DIR}/snippets/install-docker.sh
+${BASE_DIR}/snippets/install-vscode.sh
 
 cp ${BASE_DIR}/files/bash_aliases ~/.bash_aliases
 
